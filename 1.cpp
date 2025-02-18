@@ -5,7 +5,7 @@
 const int N = 10; // Розмір сітки
 
 struct Cell {
-    char type; // '.', 'W', 'B'
+    char type;
     bool visited;
     int path; // 0 - немає, 1 - вертикальна лінія, 2 - горизонтальна лінія
 };
