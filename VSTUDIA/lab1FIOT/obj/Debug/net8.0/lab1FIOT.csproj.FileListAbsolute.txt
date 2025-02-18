@@ -1,0 +1,14 @@
+S:\projects\VSTUDIA\lab1FIOT\bin\Debug\net8.0\lab1FIOT.exe
+S:\projects\VSTUDIA\lab1FIOT\bin\Debug\net8.0\lab1FIOT.deps.json
+S:\projects\VSTUDIA\lab1FIOT\bin\Debug\net8.0\lab1FIOT.runtimeconfig.json
+S:\projects\VSTUDIA\lab1FIOT\bin\Debug\net8.0\lab1FIOT.dll
+S:\projects\VSTUDIA\lab1FIOT\bin\Debug\net8.0\lab1FIOT.pdb
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.GeneratedMSBuildEditorConfig.editorconfig
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.AssemblyInfoInputs.cache
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.AssemblyInfo.cs
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.csproj.CoreCompileInputs.cache
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.dll
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\refint\lab1FIOT.dll
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.pdb
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\lab1FIOT.genruntimeconfig.cache
+S:\projects\VSTUDIA\lab1FIOT\obj\Debug\net8.0\ref\lab1FIOT.dll
