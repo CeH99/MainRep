@@ -1,14 +1,15 @@
 #include <iostream>
+#include <iomanip> // Для управления форматированием вывода
 #include <string>
 
 using namespace std;
 
-int Func(int* hours, int* money_per_hour, int size)
+double Func(double* hours, double* money_per_hour, int size)
 {
-    int result = 0; 
+    double result = 0.0; 
     for(int i = 0; i < size; i++)
     {
-        result += hours[i]*money_per_hour[i];
+        result += hours[i] * money_per_hour[i];
     }
     return result;
 }
@@ -16,8 +17,8 @@ int Func(int* hours, int* money_per_hour, int size)
 int main()
 {
     std::string workers[] = {"Andy", "Billy", "Daive"}; 
-    int hours[3] = {0};
-    int money_per_hour[3] = {0};
+    double hours[3] = {0};
+    double money_per_hour[3] = {0};
 
     for(int i = 0; i < size(workers); i++)
     {
@@ -26,8 +27,11 @@ int main()
         cout << "Enter money per hour for worker " << workers[i] << ": ";
         cin >> money_per_hour[i];
     }
-    cout << "Overall sum of salaries: " << Func(hours, money_per_hour, size(workers)) << endl;
-
+    
+    double total_salary = Func(hours, money_per_hour, size(workers));
+    
+    cout << fixed << setprecision(2);
+    cout << "Overall sum of salaries: " << total_salary << endl;
 
     return 0;
 }
