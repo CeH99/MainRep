@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> // Для управления форматированием вывода
+#include <iomanip>
 #include <string>
 
 using namespace std;
@@ -16,7 +16,7 @@ double Func(double* hours, double* money_per_hour, int size)
 
 int main()
 {
-    std::string workers[] = {"Andy", "Billy", "Daive"}; 
+    string workers[] = {"Andy", "Billy", "Daive"}; 
     double hours[3] = {0};
     double money_per_hour[3] = {0};
 
