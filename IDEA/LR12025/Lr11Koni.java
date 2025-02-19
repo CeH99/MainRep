@@ -29,7 +29,7 @@ public class Lr11Koni {
         System.out.println("\nSum of c and b is: ");
         (c.sumMatrix(c, b)).printMatrix();
 
-        System.out.println("-------------METHOD-SUBTRACT-------------------");
+        System.out.println("-------------METHOD-SUB-------------------");
 
         System.out.println("\nSubtraction of a and b is: ");
         (a.subMatrix(a, b)).printMatrix();
