@@ -78,13 +78,11 @@ int main() {
 
     // Випадковий порядок
     generateRandomData(&rootRandom, n);
-    printf("Random Tree: Height = %d, Balanced = %s\n",
-           height(rootRandom), isBalanced(rootRandom) ? "Yes" : "No");
+    printf("Random Tree: Height = %d, Balanced = %s\n", height(rootRandom), isBalanced(rootRandom) ? "Yes" : "No");
 
     // Відсортований порядок
     generateSortedData(&rootSorted, n);
-    printf("Sorted Tree: Height = %d, Balanced = %s\n",
-           height(rootSorted), isBalanced(rootSorted) ? "Yes" : "No");
+    printf("Sorted Tree: Height = %d, Balanced = %s\n", height(rootSorted), isBalanced(rootSorted) ? "Yes" : "No");
 
     return 0;
 }

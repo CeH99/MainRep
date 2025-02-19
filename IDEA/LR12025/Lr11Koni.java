@@ -29,6 +29,8 @@ public class Lr11Koni {
         System.out.println("\nSum of c and b is: ");
         (c.sumMatrix(c, b)).printMatrix();
 
+
+
         System.out.println("-------------METHOD-SUB-------------------");
 
         System.out.println("\nSubtraction of a and b is: ");
@@ -38,6 +40,8 @@ public class Lr11Koni {
         System.out.println("\nSubtraction of c and b is: ");
         (c.subMatrix(c, b)).printMatrix();
 
+
+
         System.out.println("-------------METHOD-MULTIPLY-------------------");
 
         System.out.println("\nMultiplication of these a and b is: ");
@@ -46,6 +50,8 @@ public class Lr11Koni {
         (a.multiplyMatrix(a, d)).printMatrix();
         System.out.println("\nMultiplication of these c and b is: ");
         (c.multiplyMatrix(c, b)).printMatrix();
+
+
 
         System.out.println("-------------METHOD-MULTIPLY-BY-SCALAR-----------------");
         int scalar;
@@ -61,6 +67,8 @@ public class Lr11Koni {
         System.out.println('c');
         (c.multiplyByScalar(scalar)).printMatrix();
 
+
+
         System.out.println("-------------METHOD-TRANSPOSE-------------------");
 
         System.out.println("\nTransposed matrix a: ");
@@ -69,6 +77,8 @@ public class Lr11Koni {
         (b.transpose()).printMatrix();
         System.out.println("\nTransposed matrix c: ");
         (c.transpose()).printMatrix();
+
+
 
         System.out.println("-------------METHOD-areEQUALS-------------------");
         if (!(a.areEquals(b)))
@@ -83,6 +93,8 @@ public class Lr11Koni {
             System.out.println("a and d aren't equal!");
         else
             System.out.println("a and d are equal!");
+
+
 
         System.out.println("-------------METHOD-isSQUARE-------------------");
         if (!(a.isSquare()))
@@ -99,6 +111,8 @@ public class Lr11Koni {
         else
             System.out.println("c is square");
 
+
+
         System.out.println("-------------METHOD-isSymmetricMainDiagonal-------------------");
         if (!(a.isSymmetricMainDiagonal()))
             System.out.println("a isn't symmetric along the main diagonal");
@@ -114,6 +128,8 @@ public class Lr11Koni {
             System.out.println("c isn't symmetric along the main diagonal");
         else
             System.out.println("c is symmetric along the main diagonal");
+
+
 
         System.out.println("-------------METHOD-isSymmetricSecondaryDiagonal-------------------");
         if (!(a.isSymmetricSecondaryDiagonal()))

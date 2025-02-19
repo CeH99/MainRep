@@ -51,24 +51,19 @@ int delname(char *name) {
 }
 
 int main(void) {
-    // Додавання елементів
     addname((Nameval){.name = "Andy", .value = 12});
     addname((Nameval){.name = "Billy", .value = 18});
 
-    // Виведення всіх елементів
     for (int i = 0; i < nvtab.nval; i++) {
         printf("%s %d\n", nvtab.nameval[i].name, nvtab.nameval[i].value);
     }
 
-    // Видалення елемента "Andy"
     delname("Andy");
 
-    // Виведення оновленого списку
     for (int i = 0; i < nvtab.nval; i++) {
         printf("%s %d\n", nvtab.nameval[i].name, nvtab.nameval[i].value);
     }
 
-    // Звільнення пам'яті
     free(nvtab.nameval);
 
     return 0;
