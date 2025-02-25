@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define TABLE_SIZE 1000  // Hash table size
+#define TABLE_SIZE 1000  
 
 // Structure to represent a point in 2D space
 typedef struct {

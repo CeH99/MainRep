@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Структура Nameval для збереження імені та значення
 typedef struct Nameval {
     char *name;
     int value;
 } Nameval;
 
-// Структура NVtab для керування динамічним масивом Nameval
 struct NVtab {
     int nval;            // Поточна кількість елементів
     int max;             // Максимальна кількість виділених елементів
@@ -59,9 +57,7 @@ int addname_safe(Nameval newname) {
     return nvtab.nval++;
 }
 
-// Основна функція
 int main(void) {
-    // Ініціалізуємо масив
     nvtab.nameval = NULL;
     nvtab.nval = 0;
     nvtab.max = 0;
@@ -75,7 +71,6 @@ int main(void) {
         printf("Error in addname_dangerous. All data lost.\n");
     }
 
-    // Імітуємо брак пам'яті
     printf("\nSwitching to safe method...\n");
 
     // Додаємо елементи, використовуючи безпечний спосіб
