@@ -4,8 +4,8 @@ using namespace std;
 #define SIZE 26
 
 class stack {
-    char* stck; // масив для зберігання стеку
-    int tos; // індекс вершини стеку
+    char* stck;
+    int tos;
 public:
     stack() {
         cout << "Constructing a stack\n";

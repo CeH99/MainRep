@@ -1,19 +1,16 @@
 #include <iostream>
 
-// Простейшая встраиваемая функция
 inline int simple_inline(int x) {
     std::cout << "Simple inline function called\n";
     return x * x;
 }
 
-// Рекурсивная функция
 inline int recursive_inline(int x) {
     std::cout << "Recursive inline function called\n";
     if (x <= 1) return 1;
     return x * recursive_inline(x - 1);
 }
 
-// Функция со статической переменной
 inline int static_var_inline(int x) {
     static int counter = 0;
     counter += x;
@@ -21,7 +18,6 @@ inline int static_var_inline(int x) {
     return counter;
 }
 
-// Функция с циклом
 inline int loop_inline(int x) {
     std::cout << "Loop inline function called\n";
     int sum = 0;
@@ -31,7 +27,6 @@ inline int loop_inline(int x) {
     return sum;
 }
 
-// Функция с switch
 inline int switch_inline(int x) {
     std::cout << "Switch inline function called\n";
     switch (x) {
