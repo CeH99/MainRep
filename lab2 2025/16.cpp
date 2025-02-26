@@ -7,7 +7,7 @@ class stack {
     char* stck; // holds the stack
     int tos; // index of top of stack
 public:
-    stack(); 
+    stack(unsigned int size); 
     void push(char ch);
     char pop();
     ~stack();
@@ -33,9 +33,9 @@ int main() {
     return 0;
 }
 
-stack::stack() {
+stack::stack(unsigned int size) {
     cout << "Constructing a stack\n";
-    stck = new char[SIZE];
+    stck = new char[size];
     tos = 0;
 }
 
